@@ -10,7 +10,7 @@ with open(path.join(here, 'README.rst'), encoding='utf-8') as f:
     long_description = f.read()
 
 setup(
-    name='''ckanext-guilfordnc-theme''',
+    name='''ckanext-guilfordnc_theme''',
 
     # Versions should comply with PEP440.  For a discussion on single-sourcing
     # the version across setup.py and the project code, see
@@ -79,7 +79,7 @@ setup(
     # pip to create the appropriate form of executable for the target platform.
     entry_points='''
         [ckan.plugins]
-        guilfordnc-theme=ckanext.guilfordnc-theme.plugin:Guilfordnc-ThemePlugin
+        guilfordnc-theme=ckanext.guilfordnc_theme.plugin:Guilfordnc_ThemePlugin
 	[babel.extractors]
 	ckan = ckan.lib.extract:extract_ckan
     ''',
