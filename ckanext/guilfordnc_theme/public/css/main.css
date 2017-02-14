@@ -547,7 +547,6 @@ margin-right: 10px;
 /*make the homepage image occupy whole screen*/
 @media (min-width: 768px){
   .hero{
-    background: url("/img/background.png");
     background-size: cover;
     height: 450px;
     background-position: center top;
